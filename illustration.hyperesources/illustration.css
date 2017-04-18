@@ -50,10 +50,7 @@ section, footer, header{
 }*/
 
 .thumbs a{
-	width:220px;
-	height:220px;
 	display:inline-block;
-	margin: 0px 0px 20px;
 	position:relative;
 	text-decoration:none;
 	
@@ -64,6 +61,26 @@ section, footer, header{
 	-moz-background-size:cover;
 	-webkit-background-size:cover;
 }
+
+.thumbs a.size1{
+	width:220px;
+	height:220px;
+	
+}	
+.thumbs a.size2{
+	width:220px;
+	height:220px;
+}
+.thumbs a.size4{
+	width:180px;
+	height:180px;
+}
+
+.thumbs a.size3{
+	width:344px;
+	height:258px;
+}
+
 
 /*.thumbs a:after{
 	background-color: #303030;
